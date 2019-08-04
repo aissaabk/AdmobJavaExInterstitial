@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityHardwareInformation">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:id="@+id/textViewDeviceKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="30dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/device_name" />
+
+            <TextView
+                android:id="@+id/textViewDeviceValue"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="30dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:id="@+id/textViewVendorKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/device_vendor" />
+
+            <TextView
+                android:id="@+id/textViewVendorValue"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:id="@+id/textViewCpuKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/cpu" />
+
+            <TextView
+                android:id="@+id/textViewCpuValue"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:id="@+id/textViewChipsetKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/chipset" />
+
+            <TextView
+                android:id="@+id/textViewChipsetValue"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:id="@+id/textViewDisplaySizeKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/DISPLAY" />
+
+            <TextView
+                android:id="@+id/textViewDisplaySizeValue"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:id="@+id/textViewStorageSizeKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/memory_rom" />
+
+            <TextView
+                android:id="@+id/textViewStorgaSizeValue"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:id="@+id/textViewRamSizeKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/memory_ram" />
+
+            <TextView
+                android:id="@+id/textViewRamSizeValue"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:id="@+id/textViewNetworkTechnologyKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/network" />
+
+            <TextView
+                android:id="@+id/textViewNetworkTechnologyValue"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:id="@+id/textViewMainCameraKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/camera_back" />
+
+            <TextView
+                android:id="@+id/textViewMainCameraValue"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:id="@+id/textViewSelfieCameraKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/camera_front" />
+
+            <TextView
+                android:id="@+id/textViewSelfieCameraValue"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:id="@+id/textViewBatteryKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/padding_left_or_right"
+                android:paddingEnd="@dimen/padding_left_or_right"
+                android:text="@string/battery" />
+
+            <TextView
+                android:id="@+id/textViewBatteryValue"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+        </TableRow>
+
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivitySoftwareInformation">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="120dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/textViewAndroidVersionKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/android_version" />
+
+            <TextView
+                android:id="@+id/textViewAndroidVersionValue"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/textViewAndroidSecurityPatchLevelKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:paddingBottom="@dimen/padding_top_or_pottom"
+                android:text="@string/android_security_patch_level" />
+
+            <TextView
+                android:id="@+id/textViewAndroidSecurityPatchLevelValue"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/textViewAndroidBasebandVersionKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="30dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/baseband_version" />
+
+            <TextView
+                android:id="@+id/textViewAndroidBasebandVersionValue"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/textViewAndroidBuilderNumberVersionKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/builder_numbre" />
+
+            <TextView
+                android:id="@+id/textViewAndroidBuilderNumberVersionValue"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/textViewAndroidKernelVersionKey"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/kernel_version" />
+
+            <TextView
+                android:id="@+id/textViewAndroidKernelVersionValue"
+                android:layout_width="@dimen/textview_hight"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/unknown" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

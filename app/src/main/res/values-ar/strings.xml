@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">معلومات عن الهاتف</string>
+    <string name="DISPLAY">العـرض</string>
+    <string name="Type">النــوع</string>
+    <string name="android_security_patch_level">مستوى تصحيح رمز Android</string>
+    <string name="android_version">إصدار Android</string>
+    <string name="baseband_version">إصدار النطاق الأساسي</string>
+    <string name="battery">البطارية</string>
+    <string name="builder_numbre">رقم الإصدار</string>
+    <string name="button_hardware_inforation">معلومات الهاردور عن الهاتف</string>
+    <string name="button_software_inforation">معلومات السوفت وار عن الهاتف</string>
+    <string name="camera_back">الكاميرا الخلفية</string>
+    <string name="camera_front">الكاميرا الأمامية</string>
+    <string name="chipset">شريحة المعالج</string>
+    <string name="cpu">المعالج</string>
+    <string name="device_name">إسـم الهاتف</string>
+    <string name="device_vendor">المصنع</string>
+    <string name="kernel_version">إصدار النواة الكرنل</string>
+    <string name="memory_ram">سعة الذاكر العشوائية</string>
+    <string name="memory_rom">سعة الذاكرة الداخلية</string>
+    <string name="network">نوع شبكة الهاتف</string>
+    <string name="dialog_fire_missiles">الاتصال مفقود</string>
+    <string name="alert_message_dialog">please check Internet \n this app need internet for getting information \nabout your phone</string>
+    <string name="fire">refresh</string>
+    <string name="cancel">exit</string>
+    <string name="tab_text_1">Hardware</string>
+    <string name="tab_text_2">Software</string>
+    <string name="comming_soon">قريــبا</string>
+    <string name="unknown">غير محدد</string>
+</resources>

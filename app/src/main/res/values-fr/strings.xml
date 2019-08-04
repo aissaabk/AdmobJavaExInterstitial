@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Informations de Télephone</string>
+    <string name="Type">Type</string>
+    <string name="DISPLAY">Affichage</string>
+    <string name="android_security_patch_level">"Maj du correctif de sécurité "</string>
+    <string name="android_version">Version d\'android</string>
+    <string name="baseband_version">Version de bande de base</string>
+    <string name="battery">Batterie</string>
+    <string name="builder_numbre">Neméro de build</string>
+    <string name="button_hardware_inforation">Info hardware de Téléphone</string>
+    <string name="button_software_inforation">Info software de Téléphone</string>
+    <string name="camera_back">Caméra arrier</string>
+    <string name="camera_front">Caméra avant</string>
+    <string name="chipset">Chipset</string>
+    <string name="cpu">processeur</string>
+    <string name="device_name">Nom de Téléphone</string>
+    <string name="device_vendor">Faprique</string>
+    <string name="kernel_version">Version de noyau</string>
+    <string name="memory_ram">RAM</string>
+    <string name="memory_rom">Stockage</string>
+    <string name="network">reseau mobile</string>
+    <string name="dialog_fire_missiles">pas d\'internet</string>
+    <string name="alert_message_dialog">please check Internet \n this app need internet for getting information \nabout your phone</string>
+    <string name="fire">refresh</string>
+    <string name="cancel">exit</string>
+    <string name="tab_text_1">Hardware</string>
+    <string name="tab_text_2">Software</string>
+    <string name="comming_soon">bientôt</string>
+    <string name="unknown">inconnu</string>
+</resources>
